@@ -1,18 +1,18 @@
 require 'twitter'
 
 client = Twitter::Streaming::Client.new do |config|
-  config.consumer_key        = "SXbWT2waQm7GjRGgbAO91IHUH"
-  config.consumer_secret     = "zXEOTYH8xcNt8lZ7q881VYC9dXylpNwDnamtH9u9gNfmvZoue7"
-  config.access_token        = "932430772501442564-Red7IFec6uj46L4lvy6LOojl6Duq2Ib"
-  config.access_token_secret = "isZ7KbVZpiyQpAQLbNOr4IrUJKpLpksnXGhLBcSPoVlKV"
+  config.consumer_key        = ""
+  config.consumer_secret     = ""
+  config.access_token        = ""
+  config.access_token_secret = ""
 end
 
 
 sender = Twitter::REST::Client.new do |config|
-  config.consumer_key        = "SXbWT2waQm7GjRGgbAO91IHUH"
-  config.consumer_secret     = "zXEOTYH8xcNt8lZ7q881VYC9dXylpNwDnamtH9u9gNfmvZoue7"
-  config.access_token        = "932430772501442564-Red7IFec6uj46L4lvy6LOojl6Duq2Ib"
-  config.access_token_secret = "isZ7KbVZpiyQpAQLbNOr4IrUJKpLpksnXGhLBcSPoVlKV"
+  config.consumer_key        = ""
+  config.consumer_secret     = ""
+  config.access_token        = ""
+  config.access_token_secret = ""
 end
 
 topics = "sad"
